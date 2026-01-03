@@ -22,7 +22,7 @@ import { ref, onErrorCaptured } from "vue";
 const hasError = ref(true);
 const error = ref<Error | null>(null);
 
-onErrorCaptured((err: Error, instance, info) => {
+onErrorCaptured((err: Error, info) => {
   hasError.value = true;
   error.value = err;
   console.error("Error caught by boundary:", err, info);
