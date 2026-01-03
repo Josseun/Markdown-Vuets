@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+
+/* @theme{
+
+--color-primary:#181C14;
+--color-secondary:#3C3D37;
+--color-Grey:#EEEEEE;
+} */
+
+
