@@ -1,6 +1,7 @@
 <template>
   <section>
-    <nav class="bg-gray-900 text-white px-6 py-3 shadow-md">
+    <nav class="bg-gray-900 flex justify-between items-center text-white px-6 py-3 shadow-md">
+       <h1 className="font-serif uppercase text-4xl pl-20">Markdown Editor</h1>
       <div class="flex items-center gap-6">
         <router-link to="/">
           <button
